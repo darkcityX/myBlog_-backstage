@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>不忘初心、砥砺前行</title>
+    <link rel="stylesheet" href="./../css/base.css">
     <!-- 1、bootstrap UI库引用 -->
-    <link rel="stylesheet" href="./../thrid/bootstrap-4.3.1/css/bootstrap.css" >
+    <link rel="stylesheet" href="./../thrid/bootstrap-4.3.1/css/bootstrap.css" />
+    <link rel="stylesheet" href="./../css/login.css">
     <!-- 1、jquery引用 -->
     <script src="./../thrid/jquery-3.3.1/jquery-3.3.1.slim.min.js"></script>
     <!-- bootstrap 相关引用 -->
-    <script src="./../thrid/bootstrap-4.3.1/js/bootstrap.js" ></script>
+    <script src="./../thrid/bootstrap-4.3.1/js/bootstrap.js"></script>
 </head>
+
 <body class='login_pages'>
     <div class="page_main">
-    
+        <form class='login_model'>
+            <div class="form-group">
+              <label class='labeText' for="exampleInputUser">账户：</label>
+              <input type="text" class="form-control" id="exampleInputUser" placeholder="请输入账号">
+            </div>
+            <div class="form-group">
+              <label class='labeText' for="exampleInputPassword">密码：</label>
+              <input type="password" class="form-control" id="exampleInputPassword" placeholder="请输入密码">
+            </div>
+            <button type="submit" class="btn btn-primary">登陆</button>
+        </form>     
     </div>
 </body>
+
 </html>

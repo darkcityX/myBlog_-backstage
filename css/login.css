@@ -1,0 +1,26 @@
+.login_pages {
+  background: url("../images/login_bg1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login_pages .page_main .login_model {
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 100px;
+  width: 350px;
+  font-size: 12px;
+  transform: translateY(-50%);
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.login_pages .page_main .login_model .form-group .labeText {
+  font-size: 16px;
+}
+.login_pages .page_main .login_model .btn {
+  width: 100%;
+}

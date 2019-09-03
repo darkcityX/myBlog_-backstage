@@ -9,26 +9,38 @@
     <link rel="stylesheet" href="./../css/base.css">
     <!-- 1、bootstrap UI库引用 -->
     <link rel="stylesheet" href="./../thrid/bootstrap-4.3.1/css/bootstrap.css" />
+    <link rel="stylesheet" href="./../thrid/img_ver/img_ver.css">
     <link rel="stylesheet" href="./../css/login.css">
     <!-- 1、jquery引用 -->
-    <script src="./../thrid/jquery-3.3.1/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- bootstrap 相关引用 -->
     <script src="./../thrid/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script src="./../thrid/img_ver/img_ver.js"></script>
+    <script src="./../js/login.js"></script>
 </head>
 
 <body class='login_pages'>
     <div class="page_main">
-        <form class='login_model'>
-            <div class="form-group">
-              <label class='labeText' for="exampleInputUser">账户：</label>
-              <input type="text" class="form-control" id="exampleInputUser" placeholder="请输入账号">
+        <div class='login_model'>
+            <div id="login_modelInput" class="login_modelInput">
+                <div id="tips" class="tips">
+                    <!-- <img class='tipsImg' src="./../images/null-password.jpg" alt="提示">
+                    <span>老兄,你的用户名呢?!!!</span>  -->
+                </div> 
+                <div class="form-group">
+                    <label class='labeText'>账户：</label>
+                    <input type="text" class="form-control" id="InputUser" placeholder="请输入账号">
+                </div>
+                <div class="form-group">
+                    <label class='labeText'>密码：</label>
+                    <input type="password" class="form-control" id="InputPassword" placeholder="请输入密码">
+                </div>
+                <button id="singInBtn" class="btn btn-primary">登陆</button>
             </div>
-            <div class="form-group">
-              <label class='labeText' for="exampleInputPassword">密码：</label>
-              <input type="password" class="form-control" id="exampleInputPassword" placeholder="请输入密码">
+            <div id="login_code" class="login_code">
+                这是验证区域
             </div>
-            <button type="submit" class="btn btn-primary">登陆</button>
-        </form>     
+        </div>     
     </div>
 </body>
 

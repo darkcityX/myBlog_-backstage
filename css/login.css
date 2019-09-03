@@ -6,21 +6,56 @@
   background-size: cover;
 }
 .login_pages .page_main .login_model {
-  padding: 10px;
+  padding: 20px;
   position: absolute;
   z-index: 2;
   top: 50%;
   right: 100px;
   width: 350px;
+  height: 310px;
   font-size: 12px;
   transform: translateY(-50%);
   border: 1px solid #eaeaea;
   border-radius: 4px;
-  background-color: #fff;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
 }
-.login_pages .page_main .login_model .form-group .labeText {
+.login_pages .page_main .login_model .login_modelInput {
+  padding: 20px;
+  padding-top: 50px;
+  position: relative;
+  position: absolute;
+  width: 350px;
+  left: 0px;
+  transition: all 0.8s;
+}
+.login_pages .page_main .login_model .login_modelInput .tips {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.login_pages .page_main .login_model .login_modelInput .tips img {
+  width: 40px;
+  vertical-align: baseline;
+}
+.login_pages .page_main .login_model .login_modelInput .tips span {
+  color: #ff0000;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+.login_pages .page_main .login_model .login_modelInput .form-group .labeText {
   font-size: 16px;
 }
-.login_pages .page_main .login_model .btn {
+.login_pages .page_main .login_model .login_modelInput .btn {
   width: 100%;
+  box-shadow: none;
+}
+.login_pages .page_main .login_model .login_code {
+  padding: 20px;
+  position: absolute;
+  width: 350px;
+  left: 350px;
+  transition: all 0.8s;
 }

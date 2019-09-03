@@ -8,26 +8,62 @@
     .page_main{
         // 登陆框
         .login_model{
-            padding: 10px;
+            padding: 20px;
             position: absolute;
             z-index: 2;
             top: 50%;
             right: 100px;
             width: 350px;
+            height: 310px;
             font-size: 12px;
             transform: translateY(-50%);
             border: 1px solid #eaeaea;
             border-radius: 4px;
-            background-color: #fff;
-            .form-group{
-                .labeText{
-                    font-size: 16px;
+            overflow: hidden;
+            background-color: rgba(255,255,255,0.8);
+            .login_modelInput{
+                padding: 20px;
+                padding-top: 50px;
+                position: relative;
+                position: absolute;
+                width: 350px;
+                left: 0px;
+                transition: all 0.8s;
+                .tips{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    img{
+                        width: 40px;
+                        vertical-align: baseline;
+                    }
+                    span{
+                        color: #ff0000;
+                        font-size: 14px;
+                        vertical-align: baseline;
+                    }
                 }
+                .form-group{
+                    .labeText{
+                        font-size: 16px;
+                    }
+    
+                }
+                .btn{
+                    width: 100%;
+                    box-shadow: none;
+                }
+            }
+            .login_code{
+                padding: 20px;
+                position: absolute;
+                width: 350px;
+                left: 350px;   
+                transition: all 0.8s; 
+            }
 
-            }
-            .btn{
-                width: 100%;
-            }
         }
     }
 }

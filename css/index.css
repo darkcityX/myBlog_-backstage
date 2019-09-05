@@ -1,0 +1,56 @@
+.index_page .header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: #e5e5e5;
+  max-height: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.index_page .header-container .logo {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+}
+.index_page .header-container .other {
+  box-sizing: border-box;
+  padding: 0 50px;
+}
+.index_page .header-container .other .avater {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.index_page .header-container .other .userName {
+  padding: 0 20px;
+}
+.index_page .main_page {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-basis: auto;
+  box-sizing: border-box;
+  min-width: 0;
+}
+.index_page .main_page .nav_container {
+  color: #333;
+  text-align: center;
+  width: 200px;
+  line-height: 200px;
+  overflow: auto;
+  background-color: #D3DCE6;
+}
+.index_page .main_page .main_container {
+  box-sizing: border-box;
+  padding: 20px;
+  display: block;
+  flex: 1;
+  flex-basis: auto;
+  color: #333;
+  text-align: center;
+  line-height: 160px;
+  overflow: auto;
+  background-color: #E9EEF3;
+}

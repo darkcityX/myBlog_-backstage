@@ -1,0 +1,63 @@
+.index_page{
+    // 头部
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        color: #e5e5e5;
+        max-height: 60px;
+        line-height: 60px;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.8);
+        .logo{
+            box-sizing: border-box;
+            padding: 10px;
+            width: 200px;
+        }
+        .other{
+            box-sizing: border-box;
+            padding: 0 50px;
+            .avater{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .userName{
+                padding: 0 20px;
+            }
+            
+        }
+    }
+    // 主体
+    .main_page{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        flex-basis: auto;
+        box-sizing: border-box;
+        min-width: 0;
+        // 侧边导航栏
+        .nav_container{
+            color: #333;
+            text-align: center;
+            width: 200px;
+            line-height: 200px;
+            overflow: auto;
+            background-color: #D3DCE6;
+        }
+        // 主体
+        .main_container{
+            box-sizing: border-box;
+            padding: 20px;
+            display: block;
+            flex: 1;
+            flex-basis: auto;
+            color: #333;
+            text-align: center;
+            line-height: 160px;
+            overflow: auto;
+            background-color: #E9EEF3;
+        }
+    }
+}
